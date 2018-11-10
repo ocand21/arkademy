@@ -45,14 +45,14 @@ class HomeController extends Controller
         $username = $request->username;
 
         $this->validate($request, [
-            'username' => 'required|max:8' 
+            'username' => 'required|min:8|max:8' // Jika kurang dari 8 atau lebih dari 8 karakter, maka gagal
         ]);
 
-        if (preg_match("/[a-z]{5}_[A-Z]{2}/", $username)) {
+        if (preg_match("/[a-z]{5}[_][A-Z]{2}/", $username)) {
             Session::flash('flash_message','Validasi berhasil!');
 
             return redirect()->route('numbertwo');
-        } else if(preg_match("/[a-z]{5}.[A-Z]{2}/", $username)){
+        } else if(preg_match("/[a-z]{5}[.][A-Z]{2}/", $username)){
             Session::flash('flash_message','Validasi berhasil!');
 
             return redirect()->route('numbertwo');

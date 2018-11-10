@@ -8,7 +8,9 @@
 		<button aria-hidden="true" data-dismiss="alert" class="close" type="button"> × </button>
 		{!! session('flash_message') !!}
 	</div>
-	@else
+	@endif
+
+	@if(Session::has('flash_error'))
 	<div class="alert alert-danger alert-dismissable">
 		<button aria-hidden="true" data-dismiss="alert" class="close" type="button"> × </button>
 		Validasi gagal
@@ -24,7 +26,7 @@
 			<input type="text" class="form-control" name="username">
 		</div>
 		<div class="form-group">
-			<input type="submit" class="btn btn-default" value="Kirim">
+			<input type="submit" class="btn btn-default" value="Validasi">
 		</div>
 	</form>
 </div>
