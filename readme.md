@@ -22,6 +22,12 @@ Kumpulan jawaban
 2. Untuk file kodingnya sendiri dapat ditemukan di 
 	<p>-. Soal No. 1 dan 3 pada direktori <code>App/Http/Controllers/Api/ApiController</code></p>
 	<p>-. Soal No. 2, 6 serta 7 pada direktori <code>App/Http/Controllers/HomeController</code></p>
-
+3. Apabila projek sudah berjalan, untuk melihat jawaban bisa langsung diakses melalui link di bawah ini
+	<p>-. Soal No.1 <code>http://localhost:8000/api/numberone</code></p>
+	<p>-. Soal No.2 <code>http://localhost:8000/numbertwo</code></p>
+	<p>-. Soal No.3 <code>http://localhost:8000/api/numberthree</code></p>
+	<p>-. Soal No.4 - </p>
+	<p>-. Soal No.5 - </p>
+	<p>-. Soal No.6 & 7 <code>http://localhost:8000/sixseven</code></p>
 
 <h3>Terima kasih</h3>
