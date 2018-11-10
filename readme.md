@@ -20,7 +20,7 @@ Petunjuk Konfigurasi
 Kumpulan jawaban
 1. Apabila projek telah berjalan dengan normal, maka akan masuk ke halaman Daftar Isi, di situ saya telah sediakan daftar jawaban soal yang telah saya kerjakan beserta urlnya.
 2. Untuk file kodingnya sendiri dapat ditemukan di 
-	<p>-. Soal No. 1 dan 3 pada direktori <code>App/Http/Controllers/Api/ApiController</code></p>
+	<p>-. Soal No. 1, 3 serta 5 pada direktori <code>App/Http/Controllers/Api/ApiController</code></p>
 	<p>-. Soal No. 2, 6 serta 7 pada direktori <code>App/Http/Controllers/HomeController</code></p>
 3. Apabila projek sudah berjalan, untuk melihat jawaban bisa langsung diakses melalui link di bawah ini
 	<p>-. Soal No.1 <code>http://localhost:8000/api/numberone</code></p>
