@@ -44,6 +44,10 @@ class HomeController extends Controller
         
         $username = $request->username;
 
+        $this->validate($request, [
+            'username' => 'required|max:8' 
+        ]);
+
         if (preg_match("/[a-z]{5}_[A-Z]{2}/", $username)) {
             Session::flash('flash_message','Validasi berhasil!');
 
