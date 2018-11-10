@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/numberone', 'API\ApiController@soal1');
 Route::get('/numberthree', 'API\ApiController@soal3');
+Route::get('/numberfive', 'API\ApiController@hitungKarakter');

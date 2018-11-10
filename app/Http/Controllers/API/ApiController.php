@@ -49,5 +49,19 @@ class ApiController extends Controller
         
     }
 
+    public function hitungKarakter(){
+        $teks1 = 'Bootcamp';
+        $teks2 = 'Arkademy';
+
+        $response = [
+            'Karakter 1' => $teks1 . ', o',
+            'hitungKarakter1' => substr_count($teks1, 'o'),
+            'Karakter 2' => $teks2 . ', k',
+            'hitungKarakter2' => substr_count($teks2, 'k'),
+        ];
+        
+        return response()->json($response, 200);
+    }
+
 
 }

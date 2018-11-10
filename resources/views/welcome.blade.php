@@ -34,7 +34,7 @@
         <tr>
             <td>5</td>
             <td>Soal No 5</td>
-            <td>-</a></td>
+            <td><a href="{{url('/api/numberfive')}}">{{url('/api/numberfive')}}</a></a></td>
         </tr>
         <tr>
             <td>6</td>
